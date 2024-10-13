@@ -1,3 +1,5 @@
+//implementing of linear search
+
 #include<stdio.h>
 
 int main()
