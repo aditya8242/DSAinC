@@ -1,2 +1,2 @@
 # DSAinC
-This is a repository where I put my code in C while learning Data Structures and Algorithms
+This is a repository I made while learning Data Structures and Algorithms, the language I used is C.
