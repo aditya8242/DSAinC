@@ -8,6 +8,7 @@ int F, R;
 void init()
 {
 	F = R = 0;
+	printf("Queue initialized.\n");
 }
 
 void enqueue()
@@ -25,6 +26,7 @@ void enqueue()
 		
 		Q[R] = no;
 		R++;
+		printf("Element added.\n");
 	}
 }
 
@@ -66,6 +68,7 @@ void display()
 	}
 	else
 	{
+		printf("Elements in Queue:\n");
 		for(i = 0; i < R; i++) //for reverse i = R; i > 0; i--
 		{
 			printf("%d ", Q[i]);
@@ -78,9 +81,9 @@ int main()
 {
 	int ch;
 	
-	printf("Options:\n");
 	do
 	{
+		printf("Options:\n");
 		printf("1.Initialize\n");
 		printf("2.Enqueue\n");
 		printf("3.Dequeue\n");
@@ -100,9 +103,9 @@ int main()
 					break;
 			case 4: display();
 					break;
-			case 5: break;
-			default: printf("Invalid choice, exiting program\n.");
-			break;
+			case 5: printf("Exiting.\n");
+					break;
+			default: printf("Invalid choice, enter correct choice\n.");
 		}
 	}while(ch!=5);
 }
