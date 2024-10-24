@@ -96,18 +96,16 @@ int main()
 		switch(ch)
 		{
 			case 1: init();
-					break;
+				break;
 			case 2: enqueue();
-					break;
+				break;
 			case 3: dequeue();
-					break;
+				break;
 			case 4: display();
-					break;
+				break;
 			case 5: printf("Exiting.\n");
-					break;
+				break;
 			default: printf("Invalid choice, enter correct choice\n.");
 		}
 	}while(ch!=5);
 }
-
-
