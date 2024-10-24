@@ -90,8 +90,7 @@ void display()
 int main()
 {
     int ch;
-	
-	printf("\n");
+    printf("\n");
     while(1)
     {
         printf("\tOPTIONS\n");
